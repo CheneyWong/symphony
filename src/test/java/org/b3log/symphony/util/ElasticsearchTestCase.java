@@ -18,12 +18,10 @@
 package org.b3log.symphony.util;
 
 import org.b3log.symphony.model.Article;
-import org.elasticsearch.index.query.QueryBuilder;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
-import static org.elasticsearch.index.query.QueryBuilders.multiMatchQuery;
 
 
 /**
@@ -34,9 +32,9 @@ import static org.elasticsearch.index.query.QueryBuilders.multiMatchQuery;
 public class ElasticsearchTestCase {
     @Test
     public void QueryDslBuilder(){
-        QueryBuilder qb = multiMatchQuery("test",
-                "test1","test2");
-        System.out.println(qb.toString());
+//        QueryBuilder qb = multiMatchQuery("test",
+//                "test1","test2");
+//        System.out.println(qb.toString());
     }
 
     @Test

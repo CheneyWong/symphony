@@ -2,7 +2,7 @@
     <div class="wrapper ft-smaller">
         <div class="footer-nav">
             <span>&COPY; ${year}</span>
-            <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
+            <a rel="copyright" href="https://fullstack.club" target="_blank">全栈工程师俱乐部</a>
             ${visionLabel}
         </div>
         <div class="fn-hr5"></div>
@@ -11,8 +11,8 @@
         </div>
         <div class="fn-hr5"></div>
         <div>
-            <span>Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> •
-                <a href="https://sym.b3log.org" target="_blank">Sym</a>
+            <span>Powered by <a href="https://gpio.me" target="_blank">GPIO</a> •
+                <a href="https://sym.b3log.org" target="_blank">Sym 开源</a>
                 ${version} • ${elapsed?c}ms</span>
         </div>
     </div>

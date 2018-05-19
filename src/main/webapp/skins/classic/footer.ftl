@@ -29,8 +29,8 @@
             <div class="fn-clear ft-smaller">
                        ${sloganLabel}
                     <div class="fn-right">
-                       Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> •
-                            <a href="https://sym.b3log.org" target="_blank">Sym</a>
+                       Powered by <a href="https://gpio.me" target="_blank">GPIO</a> •
+                            <a href="https://sym.b3log.org" target="_blank">Sym 开源</a>
                             ${version} • ${elapsed?c}ms
                     </div>
                 </div>

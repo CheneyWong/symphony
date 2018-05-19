@@ -67,7 +67,7 @@
         init: function () {
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
-            var text = 'HacPai';
+            var text = 'fullstack';
             S.UI.simulate(text);
             S.Drawing.loop(function () {
                 S.Shape.render();

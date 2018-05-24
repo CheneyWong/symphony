@@ -1,7 +1,7 @@
 <div class="nav">
     <h1 aria-label="${symphonyLabel}" class="tooltipped tooltipped-s">
-        <a href="${servePath}">
-            <svg><use xlink:href="#logo"></use></svg>
+        <a href="${servePath}" style="text-decoration:none">
+            <p style="text-decoration:none;padding-top: 0.1em;color: whitesmoke;">全栈工程师俱乐部</p>
         </a>
     </h1>
     <div class="nav-tabs">
@@ -16,8 +16,6 @@
         <a href="${servePath}/city/my"<#if selected?? && 'city' == selected> class="current"</#if>>
            <svg><use xlink:href="#local"></use></svg> ${currentUser.userCity}</a>
         </#if>
-        <a href="https://hacpai.com/tag/book_share"<#if selected?? && 'book' == selected> class="current"</#if>>
-           <svg><use xlink:href="#book"></use></svg> ${bookShareLabel}</a>
     </div>
     <#if esEnabled || algoliaEnabled>
     <form class="responsive-hide fn-left" target="_blank" action="/search">

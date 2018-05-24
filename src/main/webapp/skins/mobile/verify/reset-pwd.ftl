@@ -12,7 +12,7 @@
             <div class="wrapper verify">
                 <div class="verify-wrap">
                     <div class="form">
-                        <svg><use xlink:href="#logo"></use></svg>
+                        <p>全栈工程师俱乐部</p>
 
                         <div class="input-wrap">
                             <svg><use xlink:href="#userrole"></use></svg>

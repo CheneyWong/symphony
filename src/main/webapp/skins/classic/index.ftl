@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="${staticServePath}/css/index.css?${staticResourceVersion}" />
         <link rel="canonical" href="${servePath}">
     </head>
-    <body class="index">
+    <body class="index" style="overflow-x: hidden;">
         ${HeaderBannerLabel}
         <#include "header.ftl">
         <div class="main">

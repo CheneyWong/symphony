@@ -2,8 +2,8 @@
     <div class="wrapper fn-clear">
         <div class="head-fn fn-left">
             <h1>
-                <a href="${servePath}" aria-label="${symphonyLabel}">
-                    <svg><use xlink:href="#logo"></use></svg>
+                <a href="${servePath}" aria-label="${symphonyLabel}" style="text-decoration:none">
+                    <p style="padding-top: 0.1em;color: whitesmoke;text-decoration:none">全栈工程师俱乐部</p>
                 </a>
             </h1>
         </div>

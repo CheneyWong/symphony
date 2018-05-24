@@ -12,7 +12,6 @@
         <div class="fn-hr5"></div>
         <div>
             <span>Powered by <a href="https://gpio.me" target="_blank">GPIO</a> •
-                <a href="https://sym.b3log.org" target="_blank">Sym 开源</a>
                 ${version} • ${elapsed?c}ms</span>
         </div>
     </div>

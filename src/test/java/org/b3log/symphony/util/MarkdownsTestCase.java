@@ -121,7 +121,7 @@ public class MarkdownsTestCase {
             final String md = "Sym是一个用Java写的实时论坛，欢迎来[体验Sym](https://hacpai.com)！";
             final String html = Markdowns.toHTML(md);
 
-            Assert.assertEquals(html, "<p>Sym 是一个用 Java 写的实时论坛，欢迎来<a href=\"https://hacpai.com\">体验 Sym</a>！</p>");
+            Assert.assertEquals(html, "<p>一个用 Java 写的实时论坛，欢迎来体验</a>！</p>");
         }
     }
 
@@ -144,9 +144,9 @@ public class MarkdownsTestCase {
     @Test
     public void toHTML1() {
         if (Markdowns.MARKED_AVAILABLE) {
-            String md = "Sym**是一个用 _Java_ 写的实时论坛**";
+            String md = "**一个用 _Java_ 写的实时论坛**";
             String html = Markdowns.toHTML(md);
-            Assert.assertEquals(html, "<p>Sym<strong>是一个用 <em>Java</em> 写的实时论坛</strong></p>");
+            Assert.assertEquals(html, "<p><strong>一个用 <em>Java</em> 写的实时论坛</strong></p>");
 
             md = "[link](https://github.com/b3log/symphony/blob/master/README_zh_CN.md)";
             html = Markdowns.toHTML(md);

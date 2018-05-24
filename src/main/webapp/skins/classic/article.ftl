@@ -332,7 +332,7 @@
         <div class="article-header">
             <h1 aria-label="${symphonyLabel}" class="tooltipped tooltipped-s">
                 <a href="${servePath}">
-                    <svg><use xlink:href="#logo"></use></svg>
+                    <p>全栈工程师俱乐部</p>
                 </a>
             </h1>
             <h2 class="fn-ellipsis fn-pointer" onclick="Util.goTop()">

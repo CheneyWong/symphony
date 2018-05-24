@@ -111,7 +111,6 @@
                     <#elseif 3 == articleType>
                         <svg class="post__info"><use xlink:href="#video"></use></svg> ${thoughtLabel}
                         <span class="ft-gray">${addThoughtArticleTipLabel}
-                        <a href="https://hacpai.com/article/1441942422856" target="_blank">(?)</a></span>
                     </#if>
                     <div class="fn-right">
                         <#if article?? && permissions["commonRemoveArticle"].permissionGrant>

@@ -21,7 +21,7 @@
                                                         </tbody>
                                                     </table>
                                                     <div style="font-size:12px;color:#33ae81">
-                                                        <a href="${servePath}" style="font-weight:bold;color:#333;text-decoration:none" target="_blank">黑客与画家 • 账号</a>
+                                                        <a href="${servePath}" style="font-weight:bold;color:#333;text-decoration:none" target="_blank">全栈工程师 • 账号</a>
                                                     </div>
                                                     <table width="350" cellpadding="0" cellspacing="0" border="0">
                                                         <tbody>
@@ -90,7 +90,7 @@
                                                                     </div>
                                                                     <div style="border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#eee;margin-bottom:30px"></div>
                                                                     <p align="left" style="font-size:18px;line-height:24px;color:#333;font-weight:bold;margin-top:0px;margin-bottom:18px;font-family:Helvetica,Arial,sans-serif">
-                                                                        黑客与画家
+                                                                        全栈工程师
                                                                     </p>
                                                                     <div align="left" style="font-size:13px;line-height:20px;color:#444444;margin-top:0px;margin-bottom:18px;font-family:Helvetica,Arial,sans-serif">
                                                                         <table>
@@ -159,7 +159,7 @@
                                                 </td>
                                                 <td width="40" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                                 <td width="180" valign="top" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif">
-                                                    <p align="right" style="font-size:12px;line-height:18px;color:#999;margin-top:0px;margin-bottom:15px;white-space:normal"><span>© 2016 <a href="${servePath}" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">hacpai.com</a> <span style="color:#333;">黑客与画家</span></span><br style="line-height:100%"><span style="font-size:12px;color:#ccc;">Feel easy about trust.</span></p>
+                                                    <p align="right" style="font-size:12px;line-height:18px;color:#999;margin-top:0px;margin-bottom:15px;white-space:normal"><span>© 2016 <a href="${servePath}" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">hacpai.com</a> <span style="color:#333;">全栈工程师</span></span><br style="line-height:100%"><span style="font-size:12px;color:#ccc;">Feel easy about trust.</span></p>
                                                 </td>
                                                 <td width="30" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                             </tr>

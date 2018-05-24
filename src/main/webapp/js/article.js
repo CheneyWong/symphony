@@ -384,8 +384,7 @@ var Comment = {
         {name: 'unordered-list'},
         {name: 'ordered-list'},
         {name: 'view'},
-        {name: 'fullscreen'},
-        {name: 'question', action: 'https://hacpai.com/guide/markdown'}
+        {name: 'fullscreen'}
       ],
       extraKeys: {
         "Alt-/": "autocompleteUserName",
@@ -822,7 +821,7 @@ var Article = {
         mode: 'circulation',
         music: {
           title: $it.data('title'),
-          author: '<a href="https://hacpai.com/article/1464416402922" target="_blank">音乐分享</a>',
+          author: '音乐分享',
           url: $it.data('url'),
           pic: Label.staticServePath + '/images/music.png'
         }
@@ -844,7 +843,7 @@ var Article = {
       preload: 'none',
       music: {
         title: '语音预览',
-        author: '<a href="https://hacpai.com/member/v" target="_blank">小薇</a>',
+        author: '小薇',
         url: $articleAudio.data('url'),
         pic: Label.staticServePath + '/images/blank.png'
       }

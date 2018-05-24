@@ -23,14 +23,13 @@
                 <a href="${servePath}/statistic">${dataStatLabel}</a>
 
                 <div class="fn-right">&COPY; ${year}
-                    <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
+                    <a rel="copyright" href="https://fullstack.club" target="_blank">全栈工程师俱乐部</a>
                     ${visionLabel}</div>
             </div>
             <div class="fn-clear ft-smaller">
                        ${sloganLabel}
                     <div class="fn-right">
                        Powered by <a href="https://gpio.me" target="_blank">GPIO</a> •
-                            <a href="https://sym.b3log.org" target="_blank">Sym 开源</a>
                             ${version} • ${elapsed?c}ms
                     </div>
                 </div>

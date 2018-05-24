@@ -1909,7 +1909,7 @@ public class ArticleMgmtService {
             final List<String> tags = Arrays.stream(article.optString(Article.ARTICLE_TAGS).split(",")).
                     filter(StringUtils::isNotBlank).map(String::trim).collect(Collectors.toList());
             if (tags.isEmpty()) {
-                tags.add("Sym");
+                tags.add("default");
             }
             hexoFront.put("tags", tags);
 

@@ -284,7 +284,7 @@ var Util = {
       return false;
     }).bind('keyup', 'Shift+/', function (event) {
       // shift/⇧ ? 新窗口打开键盘快捷键说明文档
-      window.open('https://hacpai.com/article/1474030007391');
+      //window.open('https://hacpai.com/article/1474030007391');
       return false;
     }).bind('keyup', 'j', function (event) {
       // j 移动到下一项
@@ -1260,7 +1260,7 @@ var Util = {
     }
 
     this._initCommonHotKey();
-    console.log("%cCopyright \xa9 2012-%s, b3log.org & hacpai.com\n\n%cHacPai%c 平等、自由、奔放\n\n%cFeel easy about trust.",
+    console.log("%cCopyright \xa9 2018-%s, FullStack.Club\n\n%c全栈工程师俱乐部%c \n\n%c全栈是一种情怀...",
       'font-size:12px;color:#999999;', (new Date).getFullYear(),
       'font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;font-size:64px;color:#404040;-webkit-text-fill-color:#404040;-webkit-text-stroke: 1px #777;',
       'font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;font-size:12px;color:#999999; font-style:italic;',

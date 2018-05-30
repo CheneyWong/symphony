@@ -33,6 +33,8 @@ RUN wget http://mirrors.shu.edu.cn/apache/maven/maven-3/3.5.2/binaries/apache-ma
 RUN tar zxvf apache-maven-3.5.2-bin.tar.gz && mv /apache-maven-3.5.2 /maven
 
 ADD ./ /sym
+ADD ./src/main/resources/cloud /sym/src/main/resources
+
 # 需要修改成真实ip
 RUN cd /sym && sed -i 's/localhost/fullstack.club/g' src/main/resources/latke.properties && sed -i 's/8080/80/g' src/main/resources/latke.properties && /maven/bin/mvn package -Dmaven.test.skip=true
 
